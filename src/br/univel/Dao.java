@@ -1,5 +1,7 @@
 package br.univel;
 
+import java.util.List;
+
 public interface Dao<T,K> {
 	public	void salvar(T t);
 	public T buscar(K k);
