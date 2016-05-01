@@ -1,4 +1,4 @@
-package br.univel;
+package br.univel.basico;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -13,4 +13,4 @@ public abstract class SqlGen {
 	protected abstract PreparedStatement getSqlSelectById(Connection con, Object obj);
 	protected abstract PreparedStatement getSqlUpdateById(Connection con, Object obj);
 	protected abstract PreparedStatement getSqlDeleteById(Connection con, Object obj);
-	}
+}
