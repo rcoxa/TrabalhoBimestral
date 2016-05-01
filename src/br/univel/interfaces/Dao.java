@@ -1,4 +1,4 @@
-package br.univel.dao;
+package br.univel.interfaces;
 
 import java.util.List;
 
