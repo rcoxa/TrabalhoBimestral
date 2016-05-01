@@ -9,7 +9,7 @@ public enum EstadoCivil {
             	return item;
             }
         }
-		throw new RuntimeException("Valor não encontrado: " + value);
+		throw new RuntimeException("Estado Civil Inválido: " + value);
 	
 		
 	}

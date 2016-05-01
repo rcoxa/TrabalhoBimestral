@@ -10,6 +10,8 @@ import java.lang.annotation.Target;
 public @interface Coluna {
 
 	String nome() default "";
+	
+	int size() default 0;
 
 	boolean pk() default false;
 
